@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Short Stack', cursive;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-align: center;
+}
+
+#content {
+    padding: 3%;
+}
+
+nav {
+    background-color: #B22A0C;
+}
+
+nav ul {
+    width: 115px;
+    margin-left: 30%;
+    margin: 0 auto;
+}
+
+nav ul li {
+    display: inline;
+}
+
+section {
+    border: 2px solid red;
+    padding: 3%;
+    padding-top: 20px;
+    width: 26%;
+    margin-top: 3%;
+    height: 20vh;
+    float: left;
+}
+
+.first-section,
+.second-section,
+.third-section {
+    padding-top: 10px;
+    width: 100%;
+}
+
+
+/* Custom, iPhone Retina */
+
+@media (max-width: 320px) {}
+
+
+/* Extra Small Devices, Phones */
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 20px;
+    }
+    h2 {
+        font-size: 15px;
+    }
+    section>p {
+        font-size: 10px;
+    }
+    section {
+        border: 2px solid red;
+        padding: 3%;
+        width: 95%;
+        float: none;
+        height: 10vh;
+    }
+}
+
+
+/* Small Devices, Tablets */
+
+@media (max-width: 768px) {
+    #optional-heading {
+        display: none;
+    }
+    section {
+        border: 2px solid red;
+        padding: 3%;
+        width: 95%;
+        float: none;
+        height: 12vh;
+    }
+}
+
+
+/* Medium Devices, Desktops */
+
+@media (max-width: 992px) {
+    section {
+        border: 2px solid red;
+        padding: 3%;
+        width: 95%;
+        float: none;
+        height: 30vh;
+    }
+}
+
+
+/* Large Devices, Wide Screens */
+
+@media (max-width: 1200px) {
+    section {
+        border: 2px solid red;
+        padding: 3%;
+        width: 95%;
+        float: none;
+        height: 20vh;
+    }
+}
+
+s

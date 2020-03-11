@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=#, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styles.css">
+    <title>Task 1</title>
+</head>
+
+<body>
+    <h1>Student Survey</h1>
+    <form id="survey">
+        <!-- Contact Info -->
+        <fieldset>
+            <legend>Contact Info </legend>
+            <p> <label for="Name">Name*: </label><input type="text" name="Name" id="Name" required></p>
+            <p> <label for="Email">Email*: </label><input type="email" name="Email" id="Email" required></p>
+            <p> <label for="Number">Number*: </label><input type="number" name="Number" id="Number" required></p>
+        </fieldset>
+
+        <!-- Survey Information-->
+        <fieldset>
+            <legend>Survey Info</legend>
+            <p>
+                <label for="cars">What year are you in*:</label>
+                <select id="cars" name="car">
+                <option value="Please Select an option">Please Select an option</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+              </select>
+            </p>
+            <p> <label for="Electronic">Which Electronic device do you use :</label></p>
+            <p> <input type="checkbox" name="Electronic" value="Computer" id="Electronic"> Computer</p>
+            <p> <input type="checkbox" name="Electronic" value="Ebook"> Ebook</p>
+            <p> <input type="checkbox" name="Electronic" value="Phone"> Phone</p>
+
+            <p> <label for="Hours">How many Hours a day do you spend using electronic devices:</label></p>
+            <p><input type="radio" name="Hours" value="1" id="Hours"> 1 Hours</p>
+            <p> <input type="radio" name="Hours" value="2"> 2 Hours</p>
+            <p> <input type="radio" name="Hours" value="3"> 3 Hours</p>
+            <p> <input type="radio" name="Hours" value="3+"> 3 Hours +</p>
+
+            <p> <label for="Submit">Any othe comments:</label></p>
+            <p> <textarea name="suggestion" id="suggestion" cols="30" rows="10"></textarea></p>
+            <input type="submit" name="Submit" id="Submit">
+        </fieldset>
+    </form>
+</body>
+
+</html>

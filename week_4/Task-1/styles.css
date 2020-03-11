@@ -1,0 +1,14 @@
+#survey {
+    width: 350px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+#survey legend {
+    text-align: center;
+    color: deepskyblue;
+    font-size: 20px;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="main.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        function calculateNumber() {
+            var number1 = parseInt(document.getElementById("number1").value);
+            var number2 = parseInt(document.getElementById("number2").value);
+            var number3 = parseInt(document.getElementById("number3").value);
+
+            var result = number1 + number2 + number3;
+            document.getElementById("result").innerHTML = result;
+        }
+    </script>
+
+    <div id="Wrapper">
+        <p> <input type="number" placeholder="enter number 1" id="number1"> </p>
+        <p> <input type="number" placeholder="enter number 2" id="number2"> </p>
+        <p> <input type="number" placeholder="enter number 3" id="number3"> </p>
+
+        <p> <button onClick="calculateNumber()">Click Me</button> </p>
+    </div>
+
+    <div id="results">
+        The result is:
+        <p id="result"></p>
+    </div>
+</body>
+
+</html>
